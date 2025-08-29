@@ -26,6 +26,8 @@ arrival_planet = 'Mars'
 theta_A_deg = 120
 theta_B_deg = 90
 
+# --- End of user selection ---
+
 # --- Orbit parameters for each planet ---
 r_p_A = planets[departure_planet]['r_p']
 r_a_A = planets[departure_planet]['r_a']

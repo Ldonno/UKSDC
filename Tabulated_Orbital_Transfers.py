@@ -23,6 +23,8 @@ mu = 1.327e11
 # Set the names of the departure and arrival planets
 departure_planet = 'Earth'
 arrival_planet = 'Mars'
+# --- End of user selection ---
+
 
 delta_v_results = []
 time_results = []

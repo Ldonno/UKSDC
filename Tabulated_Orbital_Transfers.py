@@ -142,7 +142,7 @@ def tabulate_orbital_transfer(departure_planet, arrival_planet, interval=45):
                     time_row.append("   N/A  ")
                 else:
                     delta_v_row.append(f"{Delta_v:7.2f}")
-                    time_row.append(f"{days:7.0f}")
+                    time_row.append(f"{days:7.1f}")
             except Exception:
                 delta_v_row.append("   N/A  ")
                 time_row.append("   N/A  ")

@@ -23,8 +23,8 @@ departure_planet = 'Earth'
 arrival_planet = 'Mars'
 
 # Input Angles
-theta_A_deg = 120
-theta_B_deg = 90
+theta_A_deg = 0
+theta_B_deg = 150
 
 # --- End of user selection ---
 

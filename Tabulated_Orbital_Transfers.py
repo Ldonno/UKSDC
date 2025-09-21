@@ -34,7 +34,7 @@ def export_combined_table_csv(delta_v, time, theta_A_list, theta_B_list, filenam
                 dv = delta_v[i][j].strip()
                 t = time[i][j].strip()
                 if dv == "N/A" or t == "N/A" or dv == "" or t == "":
-                    cell = "N/A"
+                    cell = "-"
                 else:
                     cell = f"{dv} ({t})"
                 row.append(cell)

@@ -137,12 +137,12 @@ def tabulate_orbital_transfer(departure_planet, arrival_planet, interval=45):
                 Delta_v_B = m.sqrt((abs(v_p_t_B-v_p_B))**2 + (abs(v_r_t_B-v_r_B))**2)
                 Delta_v = Delta_v_A + Delta_v_B
                 days = delta_t / (3600 * 24)
-                if days > 1000:
+                if days > 10000:
                     delta_v_row.append("   N/A  ")
                     time_row.append("   N/A  ")
                 else:
                     delta_v_row.append(f"{Delta_v:7.2f}")
-                    time_row.append(f"{days:7.2f}")
+                    time_row.append(f"{days:7.0f}")
             except Exception:
                 delta_v_row.append("   N/A  ")
                 time_row.append("   N/A  ")

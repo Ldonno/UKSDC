@@ -19,12 +19,12 @@ mu = 1.327e11
 
 # --- User selection ---
 # Set the names of the departure and arrival planets
-departure_planet = 'Earth'
-arrival_planet = 'Mars'
+departure_planet = 'Mercury'
+arrival_planet = 'Earth'
 
 # Input Angles
-theta_A_deg = 0
-theta_B_deg = 150
+theta_A_deg = 90
+theta_B_deg = 45
 
 # --- End of user selection ---
 
